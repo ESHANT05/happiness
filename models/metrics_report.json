@@ -1,0 +1,78 @@
+{
+    "project_title": "Predictive Modeling of Personal Well-being using Lifestyle, Occupational, and Financial Data",
+    "health_model": {
+        "name": "Biological Vitality & Stress Predictor",
+        "algorithm": "RandomForestRegressor + Classifier",
+        "metrics": {
+            "r2": 0.8798929421855873,
+            "rmse": 4.189564435856885,
+            "mae": 3.3728666335048207
+        },
+        "top_features": {
+            "sleep_duration": 0.2849,
+            "sleep_quality": 0.0763,
+            "daily_steps": 0.4336,
+            "physical_activity_min": 0.0153,
+            "resting_heart_rate": 0.0359,
+            "sedentary_hours": 0.0296,
+            "bmi_category_Obese": 0.0864,
+            "bmi_category_Overweight": 0.0379
+        }
+    },
+    "work_model": {
+        "name": "Occupational Fulfillment & Burnout Predictor",
+        "algorithm": "GradientBoostingRegressor + Classifier",
+        "metrics": {
+            "r2": 0.9242661894043365,
+            "rmse": 3.19812876382371,
+            "mae": 2.585469016313639
+        },
+        "top_features": {
+            "weekly_work_hours": 0.0434,
+            "overtime": 0.099,
+            "remote_work_pct": 0.0013,
+            "job_autonomy": 0.1589,
+            "work_life_balance_rating": 0.4515,
+            "commute_minutes": 0.0044,
+            "career_growth_satisfaction": 0.1225,
+            "peer_manager_support": 0.1188
+        }
+    },
+    "finance_model": {
+        "name": "CFPB-Calibrated Financial Security Predictor",
+        "algorithm": "RandomForestRegressor + Classifier",
+        "metrics": {
+            "r2": 0.9434211166772387,
+            "rmse": 4.06396220567022,
+            "mae": 3.2629207499862085
+        },
+        "top_features": {
+            "annual_income": 0.0761,
+            "debt_to_income_ratio": 0.0492,
+            "monthly_savings_rate_pct": 0.0448,
+            "emergency_fund_months": 0.7926,
+            "discretionary_spending_pct": 0.0061,
+            "financial_literacy_score": 0.0162,
+            "cost_of_living_index": 0.015
+        }
+    },
+    "master_ensemble": {
+        "name": "Holistic Human Flourishing Stacking Ensemble",
+        "algorithm": "GradientBoosting Non-Linear Meta-Learner",
+        "metrics": {
+            "r2": 0.8100865461664504,
+            "rmse": 4.3366136182940105,
+            "mae": 3.415964241636703
+        },
+        "top_features": {
+            "pred_vitality": 0.0134,
+            "pred_fulfillment": 0.0135,
+            "pred_financial_security": 0.014,
+            "mean_domain_score": 0.7337,
+            "min_domain_score": 0.1596,
+            "domain_spread": 0.0163,
+            "health_work_synergy": 0.0136,
+            "fin_health_resilience": 0.0358
+        }
+    }
+}
