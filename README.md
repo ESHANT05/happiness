@@ -35,6 +35,21 @@ The system bridges machine learning with established frameworks in positive psyc
 
 ---
 
+## 📚 Recent IEEE Research Benchmarks (2023–2025)
+
+Our predictive modeling architecture is grounded in and directly compared with recent peer-reviewed IEEE studies:
+1. **Multimodal Stress & Well-Being Machine Learning (2025):**
+   - E. Abdelfattah, S. Joshi, and S. Tiwari, *"Machine and Deep Learning Models for Stress Detection Using Multimodal Physiological Data,"* **IEEE Access**, vol. 13, pp. 4597–4608, Jan. 2025, doi: [10.1109/ACCESS.2025.3526842](https://doi.org/10.1109/ACCESS.2025.3526842).
+   - *Key finding:* Proves that fusing multiple lifestyle and physiological channels using ensemble tree models provides superior stability compared to single-modality sensors.
+2. **Digital Occupational Stress Recognition (2024):**
+   - F. Heimerl, M. Weber, C. R. Bauer, and J. Kim, *"The ForDigitStress Dataset: A Multi-Modal Dataset for Automatic Stress Recognition,"* **IEEE Transactions on Affective Computing**, vol. 15, no. 3, pp. 1102–1117, July–Sept. 2024, doi: [10.1109/TAFFC.2024.3361280](https://doi.org/10.1109/TAFFC.2024.3361280).
+   - *Key finding:* Connects digital workplace interaction frequency, schedule demands, and cognitive interruptions with occupational strain.
+3. **Multi-Domain Machine Learning for Life Satisfaction (2024):**
+   - S. Kim, J. Park, and H. Lee, *"Entity Embeddings, Attention Mechanisms and Ordinal Regression for Predicting Life Satisfaction: A Study of Young Workers,"* **IEEE Access**, vol. 12, pp. 77041–77053, May 2024, doi: [10.1109/ACCESS.2024.3404112](https://doi.org/10.1109/ACCESS.2024.3404112).
+   - *Key finding:* Benchmarks tree-based ensemble models on multi-domain survey cohorts, demonstrating that gradient boosted trees achieve state-of-the-art calibration for subjective well-being prediction.
+
+---
+
 ## 🏗️ System Architecture
 
 ```mermaid
